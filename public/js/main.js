@@ -136,6 +136,19 @@ var newPostKey = firebase.database().ref().child('/cofeeCollection/cafe1').push(
 
 
 
+
+// Comandos de Git para subir a Github
+/*
+git init
+git remote add origin https://github.com/Al3chozA/pruebaLanding.git
+git add *
+git commit -m "first commit"
+git push origin master
+
+*/
+
+
+
 // SESION 3
 
 var foo = "Hola de nuevo Koders";
