@@ -1,0 +1,101 @@
+/*selector:etiquetas o elementos que vamos a modificar, (quién)
+atributo:característica que vamos a modificar, (qué)
+valor:resultado de la característica, (cómo)*/
+
+/*priordades de menor a mayor:
+	universal
+	tagname
+	clase
+	id
+*/
+
+*{/*selector universal*/
+	font-family:arial;
+	color:#333;
+	box-sizing: border-box;
+}
+
+#main-header{/*selector por id*/
+	font-style:italic;
+	color:navy;
+}
+
+h1{/*selector por tagname*/
+	color:peru;
+}
+
+
+.some-class{/*selector por clase*/
+	font-weight:bold;
+	text-transform: uppercase;
+}
+
+ul li{/*anidación de selectores*/
+	text-decoration:underline;
+}
+
+#login-form{
+	width:50%;
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	border:1px solid gray;
+}
+
+#login-form .form-group{
+	width:100%;
+	padding:15px;
+}
+
+#login-form .form-group label{
+	width:100%;
+	text-transform: italic;
+	font-size:14px;
+}
+
+#login-form .form-group input{
+	width:100%;
+	border-radius:5px;	
+	border:1px solid #CCC;
+	padding-left:10px;
+	box-shadow:5px 5px 5px lightgray;
+}
+
+#box-1 li:first-of-type{/*pseudoclases*/
+	background:skyblue;
+}
+
+#box-1 li:last-of-type{
+	background:green;
+}
+
+#box-2 li:nth-of-type(odd){
+	background:slategray;
+	color:white;
+}
+
+#box-2 li:nth-of-type(even){
+	background:blue;
+	color:white;
+}
+
+#box-2 li:nth-of-type(3) span:hover{
+	cursor:pointer;
+}
+
+/*ul=>Unsorted list
+ol=>Ordered list
+li=>List item
+div=>Division
+span=>
+input=>Entrada
+Label => etiqueta
+h=>header
+b=>bold
+i=>icono
+img=>imagen
+sup=>superíndice
+sub=>subindice
+br=>break line
+hr=>horizontal row
+p=>paragraph*/
